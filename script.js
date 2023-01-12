@@ -9,7 +9,7 @@ var screenText = $('textarea');
 $('button').click(function() {
 
     //Storing Button Value in variable 'value'
-    var value = $(this).val();
+    let value = $(this).val();
 
     //When textarea is empty
     if(screenText.val() === ''){
